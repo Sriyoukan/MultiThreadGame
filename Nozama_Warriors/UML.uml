@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Nozama_warriors.RubberEatFish</OriginalElement>
+  <nodes>
+    <node x="454.7340543342944" y="127.0">Nozama_warriors.Warrior</node>
+    <node x="1010.5381127450979" y="548.0">Nozama_warriors.SuperWarrior</node>
+    <node x="944.8322427400911" y="391.0">Nozama_warriors.Binocular</node>
+    <node x="794.9989094067579" y="775.0">Nozama_warriors.Grid</node>
+    <node x="538.852886033641" y="872.0">Nozama_warriors.InnocentFish</node>
+    <node x="167.0491420722883" y="548.0">Nozama_warriors.RubberEatFish</node>
+    <node x="25.04914207228819" y="548.0">Nozama_warriors.KillerFish</node>
+    <node x="1181.5381127450978" y="548.0">Nozama_warriors.NormalWarrior</node>
+    <node x="154.77849877873837" y="391.0">Nozama_warriors.MakeSound</node>
+    <node x="1372.4964460784313" y="391.0">java.lang.Runnable</node>
+    <node x="287.8400325951638" y="264.0">Nozama_warriors.Observer</node>
+    <node x="1340.4964460784313" y="264.0">java.lang.FunctionalInterface</node>
+    <node x="806.5266871845356" y="1019.0">Nozama_warriors.GameDemo</node>
+    <node x="1091.8322427400913" y="391.0">Nozama_warriors.HumanAction</node>
+    <node x="190.10320048309205" y="0.0">Nozama_warriors.SwimFin</node>
+    <node x="488.83224274009115" y="548.0">Nozama_warriors.Observable</node>
+    <node x="351.0491420722883" y="391.0">Nozama_warriors.Fish</node>
+    <node x="1404.5381127450978" y="548.0">java.lang.Thread</node>
+    <node x="647.8322427400911" y="548.0">Nozama_warriors.TreasureChest</node>
+    <node x="707.526207729469" y="0.0">Nozama_warriors.Inhabitant</node>
+    <node x="823.8322427400911" y="548.0">Nozama_warriors.Node</node>
+    <node x="491.08224274009115" y="391.0">Nozama_warriors.LotusFlower</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Nozama_warriors.Fish" target="Nozama_warriors.SwimFin">
+      <point x="-22.0" y="-18.5" />
+      <point x="373.0491420722883" y="361.0" />
+      <point x="55.54070048309211" y="361.0" />
+      <point x="55.54070048309211" y="67.0" />
+      <point x="219.60320048309205" y="67.0" />
+      <point x="-29.5" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.GameDemo" target="java.lang.Thread">
+      <point x="67.52777777777777" y="-18.5" />
+      <point x="945.5544649623133" y="999.0" />
+      <point x="1494.3119222689074" y="999.0" />
+      <point x="1494.3119222689074" y="755.0" />
+      <point x="1505.7523984593836" y="755.0" />
+      <point x="46.714285714285666" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.NormalWarrior" target="Nozama_warriors.Grid">
+      <point x="0.0" y="18.5" />
+      <point x="1263.0381127450978" y="745.0" />
+      <point x="880.0641267980623" y="745.0" />
+      <point x="39.565217391304344" y="-18.5" />
+    </edge>
+    <edge source="Nozama_warriors.GameDemo" target="Nozama_warriors.NormalWarrior">
+      <point x="43.69444444444446" y="-18.5" />
+      <point x="921.72113162898" y="969.0" />
+      <point x="1310.204464962313" y="969.0" />
+      <point x="1310.204464962313" y="745.0" />
+      <point x="1328.2381127450979" y="745.0" />
+      <point x="65.19999999999993" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Grid" target="Nozama_warriors.Fish">
+      <point x="-27.69565217391306" y="-18.5" />
+      <point x="812.8032572328448" y="705.0" />
+      <point x="477.91376447922164" y="705.0" />
+      <point x="477.91376447922164" y="458.0" />
+      <point x="412.6491420722883" y="458.0" />
+      <point x="17.600000000000023" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.TreasureChest" target="Nozama_warriors.Grid">
+      <point x="51.66666666666663" y="18.5" />
+      <point x="776.9989094067578" y="655.0" />
+      <point x="832.585865928497" y="655.0" />
+      <point x="-7.9130434782608745" y="-18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Observable" target="Nozama_warriors.LotusFlower">
+      <point x="0.0" y="-18.5" />
+      <point x="557.8322427400911" y="528.0" />
+      <point x="579.8322427400911" y="528.0" />
+      <point x="17.75" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.RubberEatFish" target="Nozama_warriors.Fish">
+      <point x="58.875" y="-18.5" />
+      <point x="304.4241420722883" y="508.0" />
+      <point x="377.4491420722883" y="508.0" />
+      <point x="-17.600000000000023" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Grid" target="Nozama_warriors.LotusFlower">
+      <point x="-19.782608695652186" y="-18.5" />
+      <point x="820.7163007111058" y="685.0" />
+      <point x="637.3322427400911" y="685.0" />
+      <point x="637.3322427400911" y="518.0" />
+      <point x="615.3322427400911" y="518.0" />
+      <point x="53.25" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.SuperWarrior" target="Nozama_warriors.HumanAction">
+      <point x="30.19999999999999" y="-18.5" />
+      <point x="1116.2381127450979" y="528.0" />
+      <point x="1130.3322427400913" y="528.0" />
+      <point x="-38.5" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Grid" target="Nozama_warriors.KillerFish">
+      <point x="-43.52173913043481" y="-18.5" />
+      <point x="796.977170276323" y="745.0" />
+      <point x="126.71580873895482" y="745.0" />
+      <point x="40.66666666666663" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.GameDemo" target="Nozama_warriors.Grid">
+      <point x="11.916666666666686" y="-18.5" />
+      <point x="889.9433538512023" y="832.0" />
+      <point x="878.4155760734245" y="832.0" />
+      <point x="37.91666666666663" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Observable" target="Nozama_warriors.Fish">
+      <point x="-46.0" y="-18.5" />
+      <point x="511.83224274009115" y="448.0" />
+      <point x="430.24914207228835" y="448.0" />
+      <point x="35.200000000000045" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Grid" target="Nozama_warriors.NormalWarrior">
+      <point x="31.65217391304347" y="-18.5" />
+      <point x="872.1510833198014" y="725.0" />
+      <point x="1197.838112745098" y="725.0" />
+      <point x="-65.19999999999999" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.KillerFish" target="Nozama_warriors.Fish">
+      <point x="45.749999999999886" y="-18.5" />
+      <point x="131.79914207228808" y="498.0" />
+      <point x="359.84914207228826" y="498.0" />
+      <point x="-35.200000000000045" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.NormalWarrior" target="java.lang.Runnable">
+      <point x="54.33333333333337" y="-18.5" />
+      <point x="1317.3714460784313" y="528.0" />
+      <point x="1403.7464460784313" y="528.0" />
+      <point x="-31.25" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Grid" target="Nozama_warriors.Node">
+      <point x="3.9565217391304373" y="-18.5" />
+      <point x="844.4554311458883" y="655.0" />
+      <point x="873.8322427400911" y="655.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.KillerFish" target="Nozama_warriors.Warrior">
+      <point x="-45.750000000000114" y="-18.5" />
+      <point x="40.29914207228808" y="528.0" />
+      <point x="11.0" y="528.0" />
+      <point x="11.0" y="204.0" />
+      <point x="459.4423876676277" y="204.0" />
+      <point x="-51.791666666666686" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Grid" target="Nozama_warriors.Inhabitant">
+      <point x="11.869565217391312" y="-18.5" />
+      <point x="852.3684746241493" y="675.0" />
+      <point x="934.3322427400911" y="675.0" />
+      <point x="934.3322427400911" y="87.0" />
+      <point x="826.6928743961357" y="87.0" />
+      <point x="54.166666666666686" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.LotusFlower" target="Nozama_warriors.Warrior">
+      <point x="-47.33333333333334" y="-18.5" />
+      <point x="514.7489094067578" y="371.0" />
+      <point x="520.5405760734245" y="371.0" />
+      <point x="520.5405760734245" y="244.0" />
+      <point x="506.525721000961" y="244.0" />
+      <point x="-4.708333333333371" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.SuperWarrior" target="java.lang.Runnable">
+      <point x="60.39999999999998" y="-18.5" />
+      <point x="1146.438112745098" y="518.0" />
+      <point x="1382.9131127450978" y="518.0" />
+      <point x="-52.08333333333333" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Grid" target="Nozama_warriors.SuperWarrior">
+      <point x="19.782608695652172" y="-18.5" />
+      <point x="860.28151810241" y="695.0" />
+      <point x="1025.638112745098" y="695.0" />
+      <point x="-60.400000000000006" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.GameDemo" target="Nozama_warriors.RubberEatFish">
+      <point x="-43.6944444444444" y="-18.5" />
+      <point x="834.3322427400911" y="969.0" />
+      <point x="245.5491420722883" y="969.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.GameDemo" target="Nozama_warriors.LotusFlower">
+      <point x="-35.74999999999997" y="-18.5" />
+      <point x="842.2766871845356" y="959.0" />
+      <point x="351.76441985006613" y="959.0" />
+      <point x="351.76441985006613" y="518.0" />
+      <point x="508.83224274009115" y="518.0" />
+      <point x="-53.25" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Grid" target="Nozama_warriors.InnocentFish">
+      <point x="-7.583333333333343" y="18.5" />
+      <point x="832.9155760734245" y="852.0" />
+      <point x="669.352886033641" y="852.0" />
+      <point x="58.0" y="-18.5" />
+    </edge>
+    <edge source="Nozama_warriors.TreasureChest" target="Nozama_warriors.Warrior">
+      <point x="0.0" y="-18.5" />
+      <point x="725.3322427400911" y="214.0" />
+      <point x="534.7757210009611" y="214.0" />
+      <point x="23.54166666666663" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Observable" target="Nozama_warriors.Warrior">
+      <point x="46.0" y="-18.5" />
+      <point x="603.8322427400911" y="528.0" />
+      <point x="668.7489094067578" y="528.0" />
+      <point x="668.7489094067578" y="224.0" />
+      <point x="525.3590543342943" y="224.0" />
+      <point x="14.125" y="18.5" />
+    </edge>
+    <edge source="java.lang.Thread" target="java.lang.Runnable">
+      <point x="13.625" y="-18.5" />
+      <point x="1472.6631127450978" y="528.0" />
+      <point x="1466.2464460784313" y="528.0" />
+      <point x="31.25" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Grid" target="Nozama_warriors.Observable">
+      <point x="-23.739130434782624" y="-18.5" />
+      <point x="816.7597789719753" y="695.0" />
+      <point x="557.8322427400911" y="695.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Fish" target="Nozama_warriors.Observer">
+      <point x="36.66666666666663" y="-18.5" />
+      <point x="431.71580873895493" y="321.0" />
+      <point x="348.8400325951638" y="321.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Warrior" target="Nozama_warriors.Inhabitant">
+      <point x="42.375" y="-18.5" />
+      <point x="553.6090543342943" y="97.0" />
+      <point x="740.026207729469" y="97.0" />
+      <point x="-32.5" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.RubberEatFish" target="Nozama_warriors.MakeSound">
+      <point x="-19.625" y="-18.5" />
+      <point x="225.9241420722883" y="488.0" />
+      <point x="213.52849877873837" y="488.0" />
+      <point x="-11.75" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Grid" target="Nozama_warriors.TreasureChest">
+      <point x="-15.826086956521756" y="-18.5" />
+      <point x="824.6728224502361" y="675.0" />
+      <point x="673.6655760734245" y="675.0" />
+      <point x="-51.66666666666666" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Node" target="Nozama_warriors.Inhabitant">
+      <point x="-25.0" y="-18.5" />
+      <point x="848.8322427400911" y="528.0" />
+      <point x="868.3322427400911" y="528.0" />
+      <point x="868.3322427400911" y="107.0" />
+      <point x="783.3595410628024" y="107.0" />
+      <point x="10.833333333333314" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.LotusFlower" target="Nozama_warriors.Inhabitant">
+      <point x="47.333333333333314" y="-18.5" />
+      <point x="609.4155760734245" y="371.0" />
+      <point x="627.9989094067578" y="371.0" />
+      <point x="627.9989094067578" y="107.0" />
+      <point x="761.6928743961357" y="107.0" />
+      <point x="-10.833333333333314" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Fish" target="Nozama_warriors.Warrior">
+      <point x="22.0" y="-18.5" />
+      <point x="417.0491420722883" y="331.0" />
+      <point x="277.3400325951638" y="331.0" />
+      <point x="277.3400325951638" y="224.0" />
+      <point x="478.2757210009611" y="224.0" />
+      <point x="-32.958333333333314" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.GameDemo" target="Nozama_warriors.KillerFish">
+      <point x="-59.583333333333314" y="-18.5" />
+      <point x="818.4433538512022" y="989.0" />
+      <point x="86.04914207228819" y="989.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.lang.Runnable" target="java.lang.Thread">
+      <point x="52.08333333333326" y="18.5" />
+      <point x="1487.0797794117643" y="528.0" />
+      <point x="1499.9131127450978" y="528.0" />
+      <point x="40.875" y="-18.5" />
+    </edge>
+    <edge source="Nozama_warriors.NormalWarrior" target="Nozama_warriors.HumanAction">
+      <point x="-54.33333333333337" y="-18.5" />
+      <point x="1208.7047794117645" y="508.0" />
+      <point x="1207.3322427400913" y="508.0" />
+      <point x="38.5" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.KillerFish" target="Nozama_warriors.MakeSound">
+      <point x="15.249999999999886" y="-18.5" />
+      <point x="101.29914207228808" y="488.0" />
+      <point x="190.02849877873837" y="488.0" />
+      <point x="-35.25" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Warrior" target="Nozama_warriors.SwimFin">
+      <point x="-42.375" y="-18.5" />
+      <point x="468.8590543342944" y="77.0" />
+      <point x="258.93653381642537" y="77.0" />
+      <point x="9.833333333333314" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Grid" target="Nozama_warriors.MakeSound">
+      <point x="-31.652173913043498" y="-18.5" />
+      <point x="808.8467354937144" y="715.0" />
+      <point x="473.95724274009115" y="715.0" />
+      <point x="473.95724274009115" y="468.0" />
+      <point x="284.02849877873837" y="468.0" />
+      <point x="58.75" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.SuperWarrior" target="Nozama_warriors.Binocular">
+      <point x="-60.400000000000006" y="-18.5" />
+      <point x="1025.638112745098" y="528.0" />
+      <point x="1007.3322427400911" y="528.0" />
+      <point x="-7.105427357601002E-15" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Grid" target="java.lang.Thread">
+      <point x="43.52173913043478" y="-18.5" />
+      <point x="884.0206485371926" y="755.0" />
+      <point x="1459.0381127450978" y="755.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.RubberEatFish" target="Nozama_warriors.Warrior">
+      <point x="-58.875" y="-18.5" />
+      <point x="186.6741420722883" y="468.0" />
+      <point x="144.27849877873848" y="468.0" />
+      <point x="144.27849877873848" y="214.0" />
+      <point x="468.8590543342944" y="214.0" />
+      <point x="-42.375" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.NormalWarrior" target="Nozama_warriors.Warrior">
+      <point x="0.0" y="-18.5" />
+      <point x="1263.0381127450978" y="184.0" />
+      <point x="563.0257210009611" y="184.0" />
+      <point x="51.79166666666663" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.InnocentFish" target="Nozama_warriors.Warrior">
+      <point x="-29.0" y="-18.5" />
+      <point x="582.352886033641" y="842.0" />
+      <point x="459.00072100096065" y="842.0" />
+      <point x="459.00072100096065" y="244.0" />
+      <point x="497.1090543342944" y="244.0" />
+      <point x="-14.125" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Fish" target="Nozama_warriors.Inhabitant">
+      <point x="7.333333333333371" y="-18.5" />
+      <point x="402.3824754056217" y="341.0" />
+      <point x="91.5" y="341.0" />
+      <point x="91.5" y="87.0" />
+      <point x="718.3595410628024" y="87.0" />
+      <point x="-54.166666666666686" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.InnocentFish" target="Nozama_warriors.Fish">
+      <point x="-58.0" y="-18.5" />
+      <point x="553.352886033641" y="852.0" />
+      <point x="395.0491420722883" y="852.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.SuperWarrior" target="Nozama_warriors.Warrior">
+      <point x="0.0" y="-18.5" />
+      <point x="1086.0381127450978" y="528.0" />
+      <point x="1080.3322427400913" y="528.0" />
+      <point x="1080.3322427400913" y="194.0" />
+      <point x="553.6090543342943" y="194.0" />
+      <point x="42.375" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Grid" target="Nozama_warriors.Warrior">
+      <point x="-3.9565217391304373" y="-18.5" />
+      <point x="836.5423876676275" y="645.0" />
+      <point x="813.3322427400911" y="645.0" />
+      <point x="813.3322427400911" y="204.0" />
+      <point x="544.1923876676277" y="204.0" />
+      <point x="32.958333333333314" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Grid" target="Nozama_warriors.RubberEatFish">
+      <point x="-39.56521739130437" y="-18.5" />
+      <point x="800.9336920154535" y="735.0" />
+      <point x="297.8824754056217" y="735.0" />
+      <point x="52.33333333333337" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.GameDemo" target="Nozama_warriors.SuperWarrior">
+      <point x="27.80555555555557" y="-18.5" />
+      <point x="905.8322427400911" y="949.0" />
+      <point x="1129.6044649623134" y="949.0" />
+      <point x="1129.6044649623134" y="715.0" />
+      <point x="1146.438112745098" y="715.0" />
+      <point x="60.400000000000034" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Warrior" target="Nozama_warriors.LotusFlower">
+      <point x="4.708333333333314" y="18.5" />
+      <point x="515.9423876676277" y="234.0" />
+      <point x="562.0822427400911" y="234.0" />
+      <point x="0.0" y="-18.5" />
+    </edge>
+    <edge source="Nozama_warriors.GameDemo" target="Nozama_warriors.InnocentFish">
+      <point x="-19.861111111111086" y="-18.5" />
+      <point x="858.1655760734245" y="939.0" />
+      <point x="575.102886033641" y="939.0" />
+      <point x="-36.25" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Binocular" target="Nozama_warriors.Grid">
+      <point x="-41.666666666666686" y="18.5" />
+      <point x="965.6655760734245" y="528.0" />
+      <point x="985.7047794117645" y="528.0" />
+      <point x="985.7047794117645" y="685.0" />
+      <point x="856.3249963632796" y="685.0" />
+      <point x="15.826086956521749" y="-18.5" />
+    </edge>
+    <edge source="Nozama_warriors.SuperWarrior" target="Nozama_warriors.Grid">
+      <point x="-30.19999999999999" y="18.5" />
+      <point x="1055.838112745098" y="705.0" />
+      <point x="864.2380398415405" y="705.0" />
+      <point x="23.739130434782624" y="-18.5" />
+    </edge>
+    <edge source="java.lang.Thread" target="java.lang.Thread">
+      <point x="-31.14285714285711" y="18.5" />
+      <point x="1427.895255602241" y="615.0" />
+      <point x="1374.5381127450978" y="615.0" />
+      <point x="1374.5381127450978" y="566.5" />
+      <point x="-54.5" y="-0.0" />
+    </edge>
+    <edge source="Nozama_warriors.InnocentFish" target="Nozama_warriors.Grid">
+      <point x="0.0" y="-18.5" />
+      <point x="611.352886033641" y="832.0" />
+      <point x="802.5822427400913" y="832.0" />
+      <point x="-37.916666666666664" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Observer" target="Nozama_warriors.Warrior">
+      <point x="0.0" y="-18.5" />
+      <point x="348.8400325951638" y="234.0" />
+      <point x="487.6923876676277" y="234.0" />
+      <point x="-23.541666666666686" y="18.5" />
+    </edge>
+    <edge source="Nozama_warriors.Grid" target="Nozama_warriors.GameDemo">
+      <point x="7.583333333333314" y="18.5" />
+      <point x="848.0822427400913" y="852.0" />
+      <point x="874.0544649623134" y="852.0" />
+      <point x="-3.9722222222222" y="-18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="723.0" y="226.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
